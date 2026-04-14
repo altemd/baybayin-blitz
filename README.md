@@ -14,5 +14,10 @@ In this game, players are given a modern Filipino word and must "spell" it using
 * **Prize:** "Ancient Script Master" stickers or bookmarks with their name in Baybayin.
 ```
 
+The idea is clearly referencing the following publication:
+
+M.J. Dionio, A.D. Fernandez, R. Feria, L.L. Figueroa, M.R. Solamo. (2020) "Likha! Mahika: an educational online competitive mobile game to help facilitate the learning of baybayin". Online paper presentation at the 13th annual International Conference of Education, Research and Innovation (ICERI 2020),9-11 November. https://library.iated.org/view/DIONIO2020LIK
+
 This was then implemented by MiMo V2 Pro Free and Minimax M2.5 Free through Opencode.
+
 This project is licensed GPL3.0, inheriting from https://github.com/OrangefixDev/kuya-bai-baybayin-translator
