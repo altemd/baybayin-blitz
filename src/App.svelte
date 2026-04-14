@@ -92,6 +92,7 @@
                 Learn Baybayin
               </button>
             </div>
+            <p class="credits">Inspired by WSL's M.J. Dionio, A.D. Fernandez, R. Feria, L.L. Figueroa, M.R. Solamo. (2020) "Likha! Mahika: an educational online competitive mobile game to help facilitate the learning of baybayin". 13th annual Int'l Conference on Education, Research and Innovation (ICERI 2020), 9-11 Nov. <a href="https://library.iated.org/view/DIONIO2020LIK" target="_blank" rel="noopener">https://library.iated.org/view/DIONIO2020LIK</a></p>
           </div>
         </div>
       </div>
@@ -289,6 +290,18 @@
     flex-direction: column;
     gap: 0.75rem;
     align-items: center;
+  }
+
+  .credits {
+    margin-top: 2rem;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    max-width: 400px;
+    line-height: 1.4;
+  }
+
+  .credits a {
+    color: var(--primary-color);
   }
 
   .hero-play-btn {
