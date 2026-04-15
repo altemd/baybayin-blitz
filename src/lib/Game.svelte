@@ -250,7 +250,7 @@
   });
 </script>
 
-<div class="game-container">
+<div class="game-container {difficulty}">
   <div class="game-header">
     <div class="player-info">
       <span class="player-name">{playerName}</span>
@@ -716,6 +716,13 @@
   .tile.consonant { border-color: #60a5fa; background: #eff6ff; }
   .tile.kudlit { border-color: #f472b6; background: #fdf2f8; }
 
+  .game-container.expert .tile.vowel,
+  .game-container.expert .tile.consonant,
+  .game-container.expert .tile.kudlit {
+    border-color: #9ca3af;
+    background: #f9fafb;
+  }
+
   .tile-char { font-size: 1.75rem; line-height: 1; margin-bottom: 0.15rem; }
   .tile-latin { font-size: 0.7rem; font-weight: 600; color: var(--text-muted); }
 
@@ -764,6 +771,13 @@
   .choice-card.vowel { border-color: #a78bfa; background: #f5f3ff; }
   .choice-card.consonant { border-color: #60a5fa; background: #eff6ff; }
   .choice-card.kudlit { border-color: #f472b6; background: #fdf2f8; }
+
+  .game-container.expert .choice-card.vowel,
+  .game-container.expert .choice-card.consonant,
+  .game-container.expert .choice-card.kudlit {
+    border-color: #9ca3af;
+    background: #f9fafb;
+  }
 
   .choice-card .tile-char { font-size: 2.75rem; line-height: 1; margin-bottom: 0.3rem; }
   .choice-card .tile-latin { font-size: 0.85rem; }
