@@ -29,7 +29,7 @@
   const referenceVowels = [
     { char: '\u1700', latin: 'a' },
     { char: '\u1701', latin: 'i/e' },
-    { char: '\u1702', latin: 'u/o' }
+    { char: '\u1702', latin: 'o/u' }
   ];
 
   const referenceConsonants = [

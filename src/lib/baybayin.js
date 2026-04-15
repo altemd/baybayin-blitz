@@ -192,8 +192,8 @@ export function getBaybayinTiles() {
     { char: '\u1711', latin: 'ha', type: 'consonant' },
     
     // Kudlit (diacritics)
-    { char: '\u1712', latin: 'i kudlit', type: 'kudlit' },
-    { char: '\u1713', latin: 'u kudlit', type: 'kudlit' },
+    { char: '\u1712', latin: 'i/e kudlit', type: 'kudlit' },
+    { char: '\u1713', latin: 'o/u kudlit', type: 'kudlit' },
     { char: '\u1714', latin: 'virama', type: 'kudlit' }
   ];
 }

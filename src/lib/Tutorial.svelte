@@ -5,7 +5,7 @@
     // Vowels
     { id: 1, question: "What is 'a' in Baybayin?", answer: "\u1700", options: ["\u1700", "\u1701", "\u1702"] },
     { id: 2, question: "What is 'i/e' in Baybayin?", answer: "\u1701", options: ["\u1700", "\u1701", "\u1702"] },
-    { id: 3, question: "What is 'u/o' in Baybayin?", answer: "\u1702", options: ["\u1700", "\u1701", "\u1702"] },
+    { id: 3, question: "What is 'o/u' in Baybayin?", answer: "\u1702", options: ["\u1700", "\u1701", "\u1702"] },
 
     // Consonants
     { id: 4, question: "What is 'ba' in Baybayin?", answer: "\u170A", options: ["\u170A", "\u170B", "\u1703"] },
@@ -14,12 +14,12 @@
     { id: 7, question: "What is 'na' in Baybayin?", answer: "\u1708", options: ["\u1706", "\u1708", "\u1711"] },
 
     // Top kudlit - adds i/e
-    { id: 8, question: "The Top Kudlit adds 'i/e'. How do you write 'ba' with top kudlit?", hint: "\u170A → \u170A\u1712", answer: "\u170A\u1712", options: ["\u170A", "\u170A\u1712", "\u170A\u1713"] },
+    { id: 8, question: "The Top Kudlit adds 'i/e'. How do you write 'ba' with the kudlit on top?", hint: "\u170A → \u170A\u1712", answer: "\u170A\u1712", options: ["\u170A", "\u170A\u1712", "\u170A\u1713"] },
     { id: 9, question: "Top Kudlit: How do you write 'be/bi'?", answer: "\u170A\u1712", options: ["\u170A", "\u170A\u1712", "\u170A\u1713"] },
     { id: 10, question: "Top Kudlit: How do you write 'ke/ki'?", answer: "\u1703\u1712", options: ["\u1703\u1713", "\u1703\u1712", "\u1703"] },
 
-    // Bottom kudlit - adds u/o
-    { id: 11, question: "The Bottom Kudlit adds 'u/o'. How do you write 'ba' with bottom kudlit?", hint: "\u170A → \u170A\u1713", answer: "\u170A\u1713", options: ["\u170A\u1712", "\u170A", "\u170A\u1713"] },
+    // Bottom kudlit - adds o/u
+    { id: 11, question: "The Bottom Kudlit adds 'o/u'. How do you write 'ba' with the kudlit at the bottom?", hint: "\u170A → \u170A\u1713", answer: "\u170A\u1713", options: ["\u170A\u1712", "\u170A", "\u170A\u1713"] },
     { id: 12, question: "Bottom Kudlit: How do you write 'bo/bu'?", answer: "\u170A\u1713", options: ["\u170A", "\u170A\u1713", "\u170A\u1712"] },
     { id: 13, question: "Bottom Kudlit: How do you write 'mo/mu'?", answer: "\u170B\u1713", options: ["\u170B\u1712", "\u170B\u1713", "\u170B"] },
 
